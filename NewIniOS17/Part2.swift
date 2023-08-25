@@ -24,12 +24,12 @@ struct Part2: View {
                 Image(.nobleRidge)
                     .resizable()
                     .scaledToFit()
-                    .clipShape(.capsule
-//                        .rect(
-//                            topLeadingRadius: 145,
-//                            bottomLeadingRadius: 45,
-//                            bottomTrailingRadius: 145
-//                        )
+                    .clipShape(
+                        .rect(
+                            topLeadingRadius: 145,
+                            bottomLeadingRadius: 45,
+                            bottomTrailingRadius: 145
+                        )
                     )
                     .padding()
             }
